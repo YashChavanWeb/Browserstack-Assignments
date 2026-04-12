@@ -1,0 +1,60 @@
+2026-04-12T10:30:53.311Z CLI info [main]     Server listening on port: 5400
+2026-04-12T10:30:53.507Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"XYZ Banking Corporation","buildName":"Test Run","buildIdentifier":"${DATE_TIME} #${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Big Sur","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":false}
+2026-04-12T10:30:53.514Z CLI info     Should start debug utility: undefined
+2026-04-12T10:30:53.595Z CLI info [testhub:module]  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Starting testhub from 62995:0
+2026-04-12T10:30:53.636Z CLI info  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-04-12T10:30:53.637Z CLI info  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-04-12T10:30:53.717Z CLI info  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-04-12T10:30:53.718Z CLI info  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-04-12T10:30:53.718Z CLI info  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-04-12T10:30:54.339Z CLI info [testhub:module]  [yashchavan_BXWaDR]   [711a2b09-a432-48d0-a9a0-c8eeb880f867]  startBuild: response=zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo
+2026-04-12T10:30:54.341Z CLI info  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-12T10:30:55.635Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:31:04.867Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:31:13.963Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:31:24.537Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:31:33.542Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:31:44.713Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:31:56.383Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:32:06.917Z CLI info  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-04-12T10:32:06.919Z CLI info  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-04-12T10:32:07.938Z CLI error [testhub:module]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  stopBuild: request={"finished_at":"2026-04-12T10:32:06.916Z","finished_metadata":[],"custom_metadata":{}} error=HTTPError: Response code 401 (Unauthorized)
+    at _0x513e42.<anonymous> (/snapshot/browserstack-binary/cli/dist/index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-12T10:32:07.938Z CLI error  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  error invoking callback for eventName: {"name":"HTTPError","code":"ERR_NON_2XX_3XX_RESPONSE","timings":{"start":1775989926922,"socket":1775989926922,"lookup":1775989926958,"connect":1775989927321,"secureConnect":1775989927602,"upload":1775989927603,"response":1775989927933,"end":1775989927934,"phases":{"wait":0,"dns":36,"tcp":363,"tls":281,"request":1,"firstByte":330,"download":1,"total":1012}}}
+2026-04-12T10:32:07.938Z CLI error  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  HTTPError: Response code 401 (Unauthorized)
+    at _0x513e42.<anonymous> (/snapshot/browserstack-binary/cli/dist/index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-12T10:32:07.940Z CLI info  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-12T10:32:08.223Z CLI info [TEST REPORTING AND ANALYTICS:module]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Visit https://automation.browserstack.com/builds/zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo to view build report, insights, and many more debugging information all at one place!
+2026-04-12T10:32:08.247Z CLI info [main]  [yashchavan_BXWaDR]  [zfxigiix9trbj0ktpo8b5bxnnn3cffmbizvnqijo]  [711a2b09-a432-48d0-a9a0-c8eeb880f867]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-04-12T10:37:26.079Z CLI info [main]     Server listening on port: 5400
+2026-04-12T10:37:26.270Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"XYZ Banking Corporation","buildName":"Test Run","buildIdentifier":"${DATE_TIME} #${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Big Sur","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":false}
+2026-04-12T10:37:26.289Z CLI info     Should start debug utility: undefined
+2026-04-12T10:37:26.882Z CLI info [testhub:module]  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  Starting testhub from 63429:0
+2026-04-12T10:37:26.918Z CLI info  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-04-12T10:37:26.919Z CLI info  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-04-12T10:37:27.032Z CLI info  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-04-12T10:37:27.033Z CLI info  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-04-12T10:37:27.033Z CLI info  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-04-12T10:37:27.618Z CLI info [testhub:module]  [yashchavan_BXWaDR]   [c1e23c96-6f69-4914-bf35-29787c68d9de]  startBuild: response=0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq
+2026-04-12T10:37:27.620Z CLI info  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-12T10:37:28.817Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:37:40.737Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:37:51.528Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:38:00.341Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:38:09.270Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:38:20.551Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:38:29.960Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Driver initialized as primary driver: platformIndex=0
+2026-04-12T10:38:43.088Z CLI info  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-04-12T10:38:43.102Z CLI info  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-04-12T10:38:44.100Z CLI error [testhub:module]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  stopBuild: request={"finished_at":"2026-04-12T10:38:43.086Z","finished_metadata":[],"custom_metadata":{}} error=HTTPError: Response code 401 (Unauthorized)
+    at _0x513e42.<anonymous> (/snapshot/browserstack-binary/cli/dist/index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-12T10:38:44.100Z CLI error  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  error invoking callback for eventName: {"name":"HTTPError","code":"ERR_NON_2XX_3XX_RESPONSE","timings":{"start":1775990323103,"socket":1775990323104,"lookup":1775990323148,"connect":1775990323437,"secureConnect":1775990323798,"upload":1775990323798,"response":1775990324091,"end":1775990324093,"phases":{"wait":1,"dns":44,"tcp":289,"tls":361,"request":0,"firstByte":293,"download":2,"total":990}}}
+2026-04-12T10:38:44.100Z CLI error  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  HTTPError: Response code 401 (Unauthorized)
+    at _0x513e42.<anonymous> (/snapshot/browserstack-binary/cli/dist/index.js)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-12T10:38:44.102Z CLI info  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-12T10:38:44.411Z CLI info [TEST REPORTING AND ANALYTICS:module]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Visit https://automation.browserstack.com/builds/0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq to view build report, insights, and many more debugging information all at one place!
+2026-04-12T10:38:44.428Z CLI info [main]  [yashchavan_BXWaDR]  [0esqhhqkywovyfscgzayrxnkujxnigq2jlwthemq]  [c1e23c96-6f69-4914-bf35-29787c68d9de]  Received graceful signal termination (SIGTERM), performing cleanup

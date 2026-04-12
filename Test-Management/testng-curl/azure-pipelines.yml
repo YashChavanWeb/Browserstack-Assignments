@@ -1,0 +1,35 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.8'
+    jdkArchitectureOption: 'x64'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: 'package'
+  continueOnError: true
+  env:
+    BROWSERSTACK_ACCESS_KEY: '$(BROWSERSTACK_ACCESS_KEY)'
+    BROWSERSTACK_USERNAME: '$(BROWSERSTACK_USERNAME)'
+  displayName: 'Building Maven'
+
+- bash: |
+    curl -k -X POST https://test-management.browserstack.com/api/v1/import/results/xml/junit -H "API-TOKEN:$(TEST_MANAGEMENT_API_TOKEN)" -F project_name='$(PROJECT_NAME)' -F "file_path=@target/surefire-reports/junitreports/TEST-com.browserstack.BStackDemoTest.xml" -F test_run_name='Test Run - $(Build.BuildNumber)' -F user_email='$(EMAIL)'
+  env:
+    TEST_MANAGEMENT_API_TOKEN: '$(TEST_MANAGEMENT_API_TOKEN)'
+    EMAIL: '$(EMAIL)'
+    PROJECT_NAME: '$(PROJECT_NAME)'
+  displayName: 'Publish to Test management'
