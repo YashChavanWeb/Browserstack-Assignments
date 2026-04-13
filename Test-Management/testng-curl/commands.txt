@@ -1,4 +1,6 @@
+mvn compile
 
+mvn test -P sample-test
 
 
 curl -k -X POST "https://test-management.browserstack.com/api/v1/import/results/xml/junit" \
@@ -7,3 +9,5 @@ curl -k -X POST "https://test-management.browserstack.com/api/v1/import/results/
 -F "file_path=@/Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Test-Management/testng-curl/target/surefire-reports/junitreports/TEST-com.browserstack.BStackDemoTest.xml" \
 -F "test_run_name=My curl run" \
 -F "user_email=yash.chavan+demo@browserstack.com"
+
+

@@ -1,6 +1,8 @@
-## Test Management
+# BrowserStack Test Management
 
-### Core Features
+A comprehensive platform for managing, authoring, and executing test cases with AI-powered insights and automated integrations.
+
+## Core Features
 * **Migrations:** Import from CSV, TestRail, Xray, and Zephyr.
 * **Authoring:** Rich text editor, shared steps, and reusable templates.
 * **Management:** Bulk edit, filters, and full version control.
@@ -17,7 +19,7 @@
 
 ---
 
-### AI Agents
+## AI Agents
 * **Generator:** Creates tests from CSV, prompts, Figma, PRDs, or images.
 * **De-duplication:** Merges or removes semantically similar tests.
 * **Low-Code:** Converts manual steps into low-code automation.
