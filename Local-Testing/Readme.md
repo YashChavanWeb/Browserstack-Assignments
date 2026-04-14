@@ -40,3 +40,10 @@ BrowserStackLocal --key YOUR_ACCESS_KEY
 ## Quick Tips
 * Ensure the binary has executable permissions (`chmod +x BrowserStackLocal`).
 * The `--key` is mandatory for establishing the secure tunnel.
+
+---
+
+## Additional Resources
+
+*   **Local Documentation:** https://browserstack.atlassian.net/wiki/spaces/CE/pages/3468329990/All+About+Local+Testing#Architecture
+*   **Local Onboarding Assignments:** https://browserstack.atlassian.net/wiki/spaces/CE/pages/3639050389/Local+Onboarding

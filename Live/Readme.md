@@ -1,4 +1,20 @@
-# Node.js File Server
+## Resources
+
+### BrowserStack Links
+* **Data Centers:** [View Locations](https://www.browserstack.com/data-centers)
+* **Live Product Onboarding:** [Confluence Docs](https://browserstack.atlassian.net/wiki/spaces/CE/pages/3953197230/BrowserStack+Live+Product+Onboarding+Page)
+
+### Testing
+* **Upload/Download UI:** `http://localhost:3000`
+
+---
+
+## External Resources
+
+*   **Download Demonstrate:** https://the-internet.herokuapp.com/download
+*   **All Live Features:** https://browserstack.atlassian.net/wiki/spaces/CE/pages/3956375637/Live+-+Talk+Track
+
+## Node.js File Server
 
 A lightweight Node.js server for uploading and downloading files. Built using pure Node.js APIs with **zero** NPM dependencies.
 
@@ -39,11 +55,3 @@ docker run -d -v $PWD/file-server:/app/download -p 3000:3000 --restart=always fi
 
 ---
 
-## Resources
-
-### BrowserStack Links
-* **Data Centers:** [View Locations](https://www.browserstack.com/data-centers)
-* **Live Product Onboarding:** [Confluence Docs](https://browserstack.atlassian.net/wiki/spaces/CE/pages/3953197230/BrowserStack+Live+Product+Onboarding+Page)
-
-### Testing
-* **Upload/Download UI:** `http://localhost:3000`
