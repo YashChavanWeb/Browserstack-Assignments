@@ -1,0 +1,597 @@
+2026-04-17T11:26:18.269Z CLI info [main]     Server listening on port: 5400
+2026-04-17T11:26:18.472Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","buildName":"browserstack-build-1","projectName":"BrowserStack Samples","framework":"testng","platforms":[{"os":"OS X","osVersion":"Big Sur","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-04-17T11:26:18.476Z CLI info     Should start debug utility: undefined
+2026-04-17T11:26:18.478Z CLI info [testhub:module]  [yashchavan_BXWaDR]   [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Starting testhub from 23858:0
+2026-04-17T11:26:18.522Z CLI info  [yashchavan_BXWaDR]   [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-04-17T11:26:18.523Z CLI info  [yashchavan_BXWaDR]   [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-04-17T11:26:27.424Z CLI info [testhub:module]  [yashchavan_BXWaDR]   [c3f7ac3f-af3e-4164-b599-ff816e77a813]  startBuild: response=ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9
+2026-04-17T11:26:27.427Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-17T11:26:28.033Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-04-17T11:26:28.034Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-04-17T11:26:28.035Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-04-17T11:26:35.077Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '17c5d267-5925-4092-8f4b-43905e338483',
+    body: { lang: 'java', code: null },
+    scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Surefire suite', 'com.browserstack.test.suites.e2e.OrderTest' ],
+    file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    started_at: '2026-04-17T11:26:35.068Z'
+  },
+  logs: []
+} to 23858:0
+2026-04-17T11:26:35.205Z CLI info [sdk:service]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Driver initialized as primary driver: platformIndex=0
+2026-04-17T11:26:35.429Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '17c5d267-5925-4092-8f4b-43905e338483',
+      body: { lang: 'java', code: null },
+      scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'Surefire suite',
+        'com.browserstack.test.suites.e2e.OrderTest'
+      ],
+      file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      started_at: '2026-04-17T11:26:35.068Z'
+    },
+    logs: []
+  }
+] to 23858:0
+2026-04-17T11:26:35.429Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-04-17T11:26:43.551Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-04-17T11:26:43.540Z',
+      uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be',
+      kind: 'TEST_LOG',
+      message: '"[\\u001B[35mpercy\\u001B[39m] Percy is not running, disabling snapshots"',
+      level: 'INFO',
+      test_run_uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be'
+    }
+  ]
+} to 23858:0
+2026-04-17T11:26:45.437Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'TestNG',
+        testFrameworkVersion: '7.4.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-04-17T11:26:43.540Z',
+        uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be',
+        kind: 'TEST_LOG',
+        message: '"[\\u001B[35mpercy\\u001B[39m] Percy is not running, disabling snapshots"',
+        level: 'INFO',
+        test_run_uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be'
+      }
+    ]
+  }
+] to 23858:0
+2026-04-17T11:26:45.442Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-04-17T11:26:46.338Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '17c5d267-5925-4092-8f4b-43905e338483',
+    body: { lang: 'java', code: null },
+    scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Surefire suite', 'com.browserstack.test.suites.e2e.OrderTest' ],
+    file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    started_at: '2026-04-17T11:26:35.068Z',
+    finished_at: '2026-04-17T11:26:46.332Z'
+  },
+  logs: []
+} to 23858:0
+2026-04-17T11:26:46.416Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+    integrations: { browserstack: [Object] }
+  }
+} to 23858:0
+2026-04-17T11:26:46.422Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+    name: 'placeOrder',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.test.suites.e2e.OrderTest.placeOrder()'
+    },
+    identifier: 'placeOrder',
+    scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+    scopes: [ 'Surefire suite', 'com.browserstack.test.suites.e2e.OrderTest' ],
+    file_name: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    vc_filepath: 'Automate/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    location: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-04-17T11:26:46.385Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Surefire test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false,
+      lts: false
+    },
+    integrations: { browserstack: [Object] }
+  },
+  logs: []
+} to 23858:0
+2026-04-17T11:26:47.437Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '227b2736-8ea4-4724-8ed2-e876d89db1be',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '17c5d267-5925-4092-8f4b-43905e338483',
+      body: { lang: 'java', code: null },
+      scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'Surefire suite',
+        'com.browserstack.test.suites.e2e.OrderTest'
+      ],
+      file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      started_at: '2026-04-17T11:26:35.068Z',
+      finished_at: '2026-04-17T11:26:46.332Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '49205c8f27f4cb7dd8454b2773ade36fa0478258',
+          capabilities: {
+            acceptInsecureCerts: false,
+            browserName: 'chrome',
+            browserVersion: '138.0.7204.50',
+            chrome: {
+              chromedriverVersion: '138.0.7204.49 (d2b48fd5f7813ed477a2d68fa232b8178fa4fb1e-refs/branch-heads/7204@{#1814})',
+              userDataDir: '/var/folders/yj/h3bj394n2tn74bp3vdngj35c0000jy/T/.org.chromium.Chromium.2N01Oo'
+            },
+            'fedcm:accounts': true,
+            'goog:chromeOptions': { debuggerAddress: 'localhost:49365' },
+            networkConnectionEnabled: false,
+            optimalHubUrl: 'hub-aps.browserstack.com',
+            pageLoadStrategy: 'normal',
+            platformName: 'MAC',
+            proxy: {
+              proxyType: 'UNSPECIFIED',
+              autodetect: false,
+              ftpProxy: null,
+              httpProxy: null,
+              noProxy: null,
+              sslProxy: null,
+              socksProxy: null,
+              socksVersion: null,
+              socksUsername: null,
+              socksPassword: null,
+              proxyAutoconfigUrl: null
+            },
+            setWindowRect: true,
+            strictFileInteractability: false,
+            timeouts: { implicit: 0, pageLoad: 300000, script: 30000 },
+            unhandledPromptBehavior: 'dismiss and notify',
+            'webauthn:extension:credBlob': true,
+            'webauthn:extension:largeBlob': true,
+            'webauthn:extension:minPinLength': true,
+            'webauthn:extension:prf': true,
+            'webauthn:virtualAuthenticators': true,
+            'webdriver.remote.sessionid': '49205c8f27f4cb7dd8454b2773ade36fa0478258'
+          },
+          platform: 'OS X',
+          platform_version: 'Big Sur',
+          browser: 'Chrome',
+          browser_version: 'latest'
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+      name: 'placeOrder',
+      body: {
+        lang: 'java',
+        code: 'public void com.browserstack.test.suites.e2e.OrderTest.placeOrder()'
+      },
+      identifier: 'placeOrder',
+      scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+      scopes: [
+        'Surefire suite',
+        'com.browserstack.test.suites.e2e.OrderTest'
+      ],
+      file_name: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      vc_filepath: 'Automate/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      location: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-04-17T11:26:46.385Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: { rerun_name: 'Surefire test-0' },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false,
+        lts: false
+      },
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '49205c8f27f4cb7dd8454b2773ade36fa0478258',
+          capabilities: {
+            acceptInsecureCerts: false,
+            browserName: 'chrome',
+            browserVersion: '138.0.7204.50',
+            chrome: {
+              chromedriverVersion: '138.0.7204.49 (d2b48fd5f7813ed477a2d68fa232b8178fa4fb1e-refs/branch-heads/7204@{#1814})',
+              userDataDir: '/var/folders/yj/h3bj394n2tn74bp3vdngj35c0000jy/T/.org.chromium.Chromium.2N01Oo'
+            },
+            'fedcm:accounts': true,
+            'goog:chromeOptions': { debuggerAddress: 'localhost:49365' },
+            networkConnectionEnabled: false,
+            optimalHubUrl: 'hub-aps.browserstack.com',
+            pageLoadStrategy: 'normal',
+            platformName: 'MAC',
+            proxy: {
+              proxyType: 'UNSPECIFIED',
+              autodetect: false,
+              ftpProxy: null,
+              httpProxy: null,
+              noProxy: null,
+              sslProxy: null,
+              socksProxy: null,
+              socksVersion: null,
+              socksUsername: null,
+              socksPassword: null,
+              proxyAutoconfigUrl: null
+            },
+            setWindowRect: true,
+            strictFileInteractability: false,
+            timeouts: { implicit: 0, pageLoad: 300000, script: 30000 },
+            unhandledPromptBehavior: 'dismiss and notify',
+            'webauthn:extension:credBlob': true,
+            'webauthn:extension:largeBlob': true,
+            'webauthn:extension:minPinLength': true,
+            'webauthn:extension:prf': true,
+            'webauthn:virtualAuthenticators': true,
+            'webdriver.remote.sessionid': '49205c8f27f4cb7dd8454b2773ade36fa0478258'
+          },
+          platform: 'OS X',
+          platform_version: 'Big Sur',
+          browser: 'Chrome',
+          browser_version: 'latest'
+        }
+      }
+    },
+    logs: []
+  }
+] to 23858:0
+2026-04-17T11:26:47.439Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-04-17T11:27:15.018Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"Surefire test-0","test_result_at":"2026-04-17T16:57:13.642826","test_scope":"Surefire suite.com.browserstack.test.suites.e2e.OrderTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2026-04-17T16:56:46.385459","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Surefire suite","com.browserstack.test.suites.e2e.OrderTest"],"test_code":"public void com.browserstack.test.suites.e2e.OrderTest.placeOrder()","test_id":"Surefire test-0@0","test_uuid":"1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b","test_ended_at":"2026-04-17T16:57:13.643638","automate_session_name":"Surefire test-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.test.suites.e2e.OrderTest-placeOrder","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/test/suites/e2e/OrderTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/test/suites/e2e/OrderTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java","event_started_at":"2026-04-17T16:56:35.068593","hook_id":"227b2736-8ea4-4724-8ed2-e876d89db1be","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2026-04-17T16:56:46.332576","test_location":"browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java"}]},"hook_id":"227b2736-8ea4-4724-8ed2-e876d89db1be","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"placeOrder","logs":[]}
+2026-04-17T11:27:15.021Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+    name: 'placeOrder',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.test.suites.e2e.OrderTest.placeOrder()'
+    },
+    identifier: 'placeOrder',
+    scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+    scopes: [ 'Surefire suite', 'com.browserstack.test.suites.e2e.OrderTest' ],
+    file_name: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    vc_filepath: 'Automate/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    location: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 27258,
+    started_at: '2026-04-17T11:26:46.385Z',
+    finished_at: '2026-04-17T11:27:13.643Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Surefire test-0' },
+    hooks: [ '227b2736-8ea4-4724-8ed2-e876d89db1be' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false,
+      lts: false
+    }
+  },
+  logs: []
+} to 23858:0
+2026-04-17T11:27:15.038Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '0a947ed8-d557-48f4-a183-a092ba7b53bb',
+    integrations: { browserstack: [Object] }
+  }
+} to 23858:0
+2026-04-17T11:27:15.041Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '0a947ed8-d557-48f4-a183-a092ba7b53bb',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+    body: { lang: 'java', code: null },
+    scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Surefire suite', 'com.browserstack.test.suites.e2e.OrderTest' ],
+    file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    started_at: '2026-04-17T11:27:15.033Z'
+  },
+  logs: []
+} to 23858:0
+2026-04-17T11:27:15.447Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+      name: 'placeOrder',
+      body: {
+        lang: 'java',
+        code: 'public void com.browserstack.test.suites.e2e.OrderTest.placeOrder()'
+      },
+      identifier: 'placeOrder',
+      scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+      scopes: [
+        'Surefire suite',
+        'com.browserstack.test.suites.e2e.OrderTest'
+      ],
+      file_name: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      vc_filepath: 'Automate/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      location: 'src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 27258,
+      started_at: '2026-04-17T11:26:46.385Z',
+      finished_at: '2026-04-17T11:27:13.643Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: { rerun_name: 'Surefire test-0' },
+      hooks: [ '227b2736-8ea4-4724-8ed2-e876d89db1be' ],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false,
+        lts: false
+      }
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '0a947ed8-d557-48f4-a183-a092ba7b53bb',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '49205c8f27f4cb7dd8454b2773ade36fa0478258',
+          capabilities: {
+            acceptInsecureCerts: false,
+            browserName: 'chrome',
+            browserVersion: '138.0.7204.50',
+            chrome: {
+              chromedriverVersion: '138.0.7204.49 (d2b48fd5f7813ed477a2d68fa232b8178fa4fb1e-refs/branch-heads/7204@{#1814})',
+              userDataDir: '/var/folders/yj/h3bj394n2tn74bp3vdngj35c0000jy/T/.org.chromium.Chromium.2N01Oo'
+            },
+            'fedcm:accounts': true,
+            'goog:chromeOptions': { debuggerAddress: 'localhost:49365' },
+            networkConnectionEnabled: false,
+            optimalHubUrl: 'hub-aps.browserstack.com',
+            pageLoadStrategy: 'normal',
+            platformName: 'MAC',
+            proxy: {
+              proxyType: 'UNSPECIFIED',
+              autodetect: false,
+              ftpProxy: null,
+              httpProxy: null,
+              noProxy: null,
+              sslProxy: null,
+              socksProxy: null,
+              socksVersion: null,
+              socksUsername: null,
+              socksPassword: null,
+              proxyAutoconfigUrl: null
+            },
+            setWindowRect: true,
+            strictFileInteractability: false,
+            timeouts: { implicit: 0, pageLoad: 300000, script: 30000 },
+            unhandledPromptBehavior: 'dismiss and notify',
+            'webauthn:extension:credBlob': true,
+            'webauthn:extension:largeBlob': true,
+            'webauthn:extension:minPinLength': true,
+            'webauthn:extension:prf': true,
+            'webauthn:virtualAuthenticators': true,
+            'webdriver.remote.sessionid': '49205c8f27f4cb7dd8454b2773ade36fa0478258'
+          },
+          platform: 'OS X',
+          platform_version: 'Big Sur',
+          browser: 'Chrome',
+          browser_version: 'latest'
+        }
+      }
+    }
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '0a947ed8-d557-48f4-a183-a092ba7b53bb',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+      body: { lang: 'java', code: null },
+      scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'Surefire suite',
+        'com.browserstack.test.suites.e2e.OrderTest'
+      ],
+      file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      started_at: '2026-04-17T11:27:15.033Z'
+    },
+    logs: []
+  }
+] to 23858:0
+2026-04-17T11:27:15.449Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-04-17T11:27:16.735Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '0a947ed8-d557-48f4-a183-a092ba7b53bb',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+    body: { lang: 'java', code: null },
+    scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Surefire suite', 'com.browserstack.test.suites.e2e.OrderTest' ],
+    file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+    started_at: '2026-04-17T11:27:15.033Z',
+    finished_at: '2026-04-17T11:27:16.732Z'
+  },
+  logs: []
+} to 23858:0
+2026-04-17T11:27:17.448Z CLI info [testhub:request-queue-handler]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '0a947ed8-d557-48f4-a183-a092ba7b53bb',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b',
+      body: { lang: 'java', code: null },
+      scope: 'Surefire suite.com.browserstack.test.suites.e2e.OrderTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'Surefire suite',
+        'com.browserstack.test.suites.e2e.OrderTest'
+      ],
+      file_name: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      vc_filepath: 'Automate/browserstack-examples-testng-main/browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      location: 'browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java',
+      started_at: '2026-04-17T11:27:15.033Z',
+      finished_at: '2026-04-17T11:27:16.732Z'
+    },
+    logs: []
+  }
+] to 23858:0
+2026-04-17T11:27:17.448Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-04-17T11:27:18.400Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-04-17T11:27:18.403Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-04-17T11:27:19.405Z CLI info [testhub:module]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  stopBuild: ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9 request={"finished_at":"2026-04-17T11:27:18.400Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2026-04-17T11:27:19.407Z CLI info  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-17T11:27:20.527Z CLI info [TEST REPORTING AND ANALYTICS:module]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Visit https://automation.browserstack.com/builds/ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9 to view build report, insights, and many more debugging information all at one place!
+2026-04-17T11:27:20.546Z CLI info [main]  [yashchavan_BXWaDR]  [ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9]  [c3f7ac3f-af3e-4164-b599-ff816e77a813]  Received graceful signal termination (SIGTERM), performing cleanup

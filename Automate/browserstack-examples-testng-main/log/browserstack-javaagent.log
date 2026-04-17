@@ -1,0 +1,763 @@
+16:44:34.639 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+16:46:01.185 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+16:55:52.321 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: /Users/yashchavan/.m2/repository/com/browserstack/browserstack-java-sdk/1.56.5/browserstack-java-sdk-1.56.5.jar
+16:55:52.322 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: /Users/yashchavan/.m2/repository/com/browserstack/browserstack-java-sdk/1.56.5/browserstack-java-sdk-1.56.5.jar
+16:55:52.322 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+16:55:52.326 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.9.1
+16:55:52.326 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:55:52.403 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, browserstack-local=false, user.dir=/Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, localrepository=/Users/yashchavan/.m2/repository}
+16:55:52.404 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:55:52.526 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger ROOT
+16:55:52.526 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger browserStackAutomationFileDebugger
+16:55:52.526 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger browserStackFileDebugger
+16:55:52.526 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger com
+16:55:52.537 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:55:52.539 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 2e881a48-1d76-42c2-914b-8b65c5db9d28
+16:55:52.539 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:55:54.781 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+16:56:17.388 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/yashchavan/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+16:56:18.351 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=c3f7ac3f-af3e-4164-b599-ff816e77a813 listenAddress=127.0.0.1:5400
+16:56:30.172 [main] INFO  com.browserstack.v2.SdkCLI - loadBinResponse: Loading modules as per LoadBinResponse=bin_session_id: "c3f7ac3f-af3e-4164-b599-ff816e77a813"
+config: "{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"buildName\":\"browserstack-build-1\",\"projectName\":\"BrowserStack Samples\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"}],\"parallelsPerPlatform\":1,\"browserstackLocal\":false,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"browserStackLocalOptions\":{\"key\":\"[REDACTED]\",\"skipBinaryInitialisation\":false},\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"additionalPlatforms\":[],\"additionalParams\":{},\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main/log\",\"buildIdentifier\":\"#1\",\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-aps.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzc2NDM1OTg3IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwODU2NTg0LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6MTA3NzY0OTYsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.WRfmmJAtNOjYvyTfWJHny81ngv9Xcb0naT9Uo8-c8NR4c846bpvBrp8UnoNAQD4vj2dFQ1qoTrGuRoBtL7YpAWzJNmqxGuRBzKQ2prgHxJEiTDEvDPj1P8lqXF3wWliHvKRQna3UTf12-bUrOUo2dOCNvWidiU-IBKHjW2irh198JoxXQXlIGa7NwSMsfKUgwC_OuyZWkr4_te8K-WOyJqV9D8-fBRDXib20Ouc1UYTPK1tVvgjeKnz7iLYYf6P6a1fR6uEm0j56LMEXXMWRswLrWoNIdx7r6Edhsbmf71icX7AvZvM7TpWTAnH38Z4UFS2s96CMJyq-M-YXG-uLEA"
+  build_hashed_id: "ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9"
+  testhub_events: true
+}
+observability {
+  success: true
+  options {
+    allow_screenshots: "true"
+  }
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+16:56:30.182 [main] INFO  com.browserstack.v2.SdkCLI - startChild: child-process connected
+16:56:30.186 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+16:56:34.620 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:56:34.635 [main] INFO  com.browserstack.testOps.Listener - onStart: CLI is active
+16:56:35.045 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=-2114543366 target=Surefire test-0@0 instances=[52, -2114543366]
+16:56:35.045 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-2114543366
+16:56:35.045 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-2114543366
+16:56:35.056 [Surefire test-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-2114543366
+16:56:35.056 [Surefire test-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-2114543366
+16:56:35.056 [Surefire test-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+16:56:35.061 [Surefire test-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, TestClass :: com/browserstack/test/suites/e2e/OrderTest
+16:56:35.068 [Surefire test-0@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=TestBase.setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}]
+16:56:35.068 [Surefire test-0@0] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:56:35.068593, hook_id=227b2736-8ea4-4724-8ed2-e876d89db1be, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}  and args = [[TestResult name=setUp status=STARTED method=TestBase.setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}], TestBase.setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c]]
+16:56:35.068 [Surefire test-0@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:56:35.068593, hook_id=227b2736-8ea4-4724-8ed2-e876d89db1be, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+16:56:35.078 [Surefire test-0@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@377f8475, response=success: true
+
+16:56:35.195 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:56:35.198 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Starting single instance quit process
+16:56:35.198 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] SdkCLI is running, getting tracked instance
+16:56:35.199 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] AutomationFramework.getTrackedInstance() returned null, no driver to quit
+16:56:35.199 [setUp@0] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=911991043 target=23841:52 instances=[911991043]
+16:56:35.199 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@3edb38df
+16:56:35.202 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Creating driver: platformIndex=0, isSecondary=false, driverInitCount=0
+16:56:35.214 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - Optimal hub url from cli. https://hub-aps.browserstack.com/wd/hub
+16:56:35.215 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:56:35.224 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1fcb685d
+16:56:43.465 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2bfa5a08
+16:56:43.465 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:43.466 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:43.466 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:43.467 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:43.467 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:43.477 [setUp@0] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=911991043 target=23841:52 instances=[911991043]
+16:56:43.477 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@75529139
+16:56:43.478 [setUp@0] INFO  c.b.v2.module.WebdriverModule - [SESSION_TRACKING] onDriverCreated: sessionId=49205c8f27f4cb7dd8454b2773ade36fa0478258 instanceRef=911991043 driverHashCode=7124889 threadId=52 processId=23841
+16:56:43.479 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+16:56:43.488 [setUp@0] INFO  c.b.v2.module.TestHubModule - onAutomationCreate: event={com.browserstack.v2.eventBus.Event@75529139}
+16:56:43.488 [setUp@0] INFO  c.b.v2.module.TestHubModule - onAutomationCreate: Test data not initialized yet, deferring CBT session event to onBeforeTest
+16:56:43.540 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=-2114543366
+16:56:43.540 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+16:56:43.552 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@20e0749f, response=success: true
+
+16:56:43.553 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@20e0749f
+16:56:43.559 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@781952
+16:56:43.559 [Forwarding get on session 49205c8f27f4cb7dd8454b2773ade36fa0478258 to remote] DEBUG c.browserstack.utils.UtilityMethods - Optimal hub url from cli. https://hub-aps.browserstack.com/wd/hub
+16:56:46.197 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1da01633
+16:56:46.198 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:46.198 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:46.198 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:46.198 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:46.198 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:46.213 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@566828b4
+16:56:46.313 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6d0b3139
+16:56:46.313 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:46.313 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:46.313 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:46.313 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:46.313 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:46.322 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-2114543366
+16:56:46.322 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-2114543366
+16:56:46.322 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+16:56:46.323 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, TestClass :: com/browserstack/test/suites/e2e/OrderTest
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=TestBase.setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}]
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:56:35.068593, hook_id=227b2736-8ea4-4724-8ed2-e876d89db1be, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=TestBase.setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}], TestBase.setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c]]
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel/BuildLevelHookEvent and abs path = /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel/BuildLevelHookEvent 
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel/BuildLevelHookEvent
+16:56:46.332 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+16:56:46.333 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+16:56:46.333 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:56:35.068593, hook_id=227b2736-8ea4-4724-8ed2-e876d89db1be, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2026-04-17T16:56:46.332576, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}]}
+16:56:46.339 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@7a89b62c, response=success: true
+
+16:56:46.381 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-2114543366
+16:56:46.381 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, TestClass :: com/browserstack/test/suites/e2e/OrderTest
+16:56:46.385 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-2114543366 instanceThreadId=52 testResult=Surefire test-0 testData={test_uuid=1870139f-e2a8-47d0-8d12-b6cf9d2b2e2b, test_file_path=src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, test_scope=Surefire suite.com.browserstack.test.suites.e2e.OrderTest, test_meta={}, test_scopes=[Surefire suite, com.browserstack.test.suites.e2e.OrderTest], test_code=public void com.browserstack.test.suites.e2e.OrderTest.placeOrder(), test_session_name=com.browserstack.test.suites.e2e.OrderTest-placeOrder, test_name=placeOrder, test_tags=, custom_metadata={}, test_id=Surefire test-0@0, test_location=src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}
+16:56:46.385 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@35927372
+16:56:46.385 [setUp@0] INFO  c.b.v2.module.TestHubModule - onBeforeTest: event={com.browserstack.v2.eventBus.Event@35927372}
+16:56:46.417 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@35927372, response=success: true
+
+16:56:46.422 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@35927372, response=success: true
+
+16:56:46.424 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@43ed1d79, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@43ed1d79, autoInstance=[com.browserstack.v2.instance.SeleniumInstance@784b3e22], hookState=HookState.PRE}
+16:56:46.424 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+16:56:46.564 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7a19613b
+16:56:46.664 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@35bce0f5
+16:56:46.664 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:46.664 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:46.664 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:46.665 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:46.665 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:46.668 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@23ad59c8
+16:56:46.829 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7c9dbb10
+16:56:46.829 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:46.829 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:46.829 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:46.829 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:46.829 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:46.834 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5c29e101
+16:56:47.114 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@742e6dd
+16:56:47.114 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:47.114 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:47.114 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:47.114 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:47.115 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:47.121 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@c171fdf
+16:56:48.789 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@fb493cb
+16:56:48.790 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:48.790 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:48.790 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:48.790 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:48.790 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:48.803 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2420ec0a
+16:56:49.922 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@573cbf24
+16:56:49.922 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:49.922 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:49.922 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:49.922 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:49.922 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:49.926 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7d6a24c3
+16:56:51.330 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1cdbab6e
+16:56:51.330 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:51.330 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:51.331 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:51.331 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:51.331 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:51.338 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6ead68dc
+16:56:52.288 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@28692aac
+16:56:52.288 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:52.289 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:52.289 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:52.289 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:52.289 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:52.296 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@52de357e
+16:56:53.612 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@61478ecd
+16:56:53.613 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:53.613 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:53.613 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:53.613 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:53.613 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:53.618 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2b636c5a
+16:56:54.253 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7fcff492
+16:56:54.254 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:54.254 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:54.254 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:54.254 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:54.254 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:54.261 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@63caf6e7
+16:56:54.434 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@27003b09
+16:56:54.434 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:54.434 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:54.434 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:54.434 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:54.435 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:54.441 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1afea5fa
+16:56:54.851 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@eaf1e61
+16:56:54.851 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:54.852 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:54.852 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:54.852 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:54.852 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:54.860 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7ff1121d
+16:56:56.558 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@74458dee
+16:56:56.558 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:56.558 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:56.559 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:56.559 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:56.559 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:56.565 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@8c9ae66
+16:56:56.685 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5e4606cf
+16:56:56.685 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:56.686 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:56.686 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:56.686 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:56.686 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:56.692 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3f1bd30d
+16:56:56.854 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@158d65d
+16:56:56.854 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:56.854 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:56.854 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:56.854 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:56.855 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:56.865 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@342f5727
+16:56:57.019 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6a8de720
+16:56:57.020 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:57.020 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:57.020 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:57.020 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:57.020 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:57.028 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@b538840
+16:56:57.966 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@44d9afa
+16:56:57.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:57.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:57.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:57.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:57.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:57.973 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@d2b94d8
+16:56:58.085 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3965fc2b
+16:56:58.085 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:58.085 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:58.085 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:58.086 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:58.086 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:58.090 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@125251f7
+16:56:58.206 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4406332
+16:56:58.206 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:58.206 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:58.206 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:58.206 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:58.206 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:58.212 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@363cbd4a
+16:56:58.367 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@254accb
+16:56:58.368 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:58.368 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:58.368 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:58.368 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:58.368 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:58.375 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@63bdb4bd
+16:56:58.623 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4e64a9c8
+16:56:58.624 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:58.624 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:58.624 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:58.624 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:58.624 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:58.630 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@450e98db
+16:56:58.884 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@8915390
+16:56:58.884 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:58.884 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:58.884 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:58.884 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:58.884 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:58.891 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4fa5ae0f
+16:56:59.657 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4177bcb8
+16:56:59.658 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:59.658 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:59.658 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:59.658 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:59.658 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:59.663 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@620cdcb0
+16:56:59.826 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1ee22e35
+16:56:59.826 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:59.826 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:59.827 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:59.827 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:59.827 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:59.832 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1baba89f
+16:56:59.968 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7fd85c2f
+16:56:59.970 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:56:59.970 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:56:59.970 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:56:59.970 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:56:59.970 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:56:59.980 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3abd65fb
+16:57:00.081 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@660d628f
+16:57:00.081 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:00.081 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:00.081 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:00.081 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:00.081 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:00.084 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@31add495
+16:57:00.570 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1be8ad3f
+16:57:00.571 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:00.571 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:00.571 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:00.571 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:00.571 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:00.578 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6789db73
+16:57:00.726 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@20369b25
+16:57:00.727 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:00.727 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:00.727 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:00.727 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:00.727 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:00.731 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2acd9243
+16:57:00.843 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3eb6cb8c
+16:57:00.843 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:00.843 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:00.843 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:00.844 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:00.844 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:00.848 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7396b818
+16:57:00.965 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@126469e2
+16:57:00.966 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:00.966 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:00.966 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:00.966 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:00.966 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:00.971 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@304924ae
+16:57:01.126 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@602f9dd0
+16:57:01.126 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:01.126 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:01.127 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:01.127 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:01.127 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:01.132 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@28557eee
+16:57:01.257 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1623a465
+16:57:01.257 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:01.257 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:01.258 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:01.258 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:01.258 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:01.264 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@131518f1
+16:57:02.026 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6ca03b32
+16:57:02.026 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:02.027 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:02.027 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:02.027 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:02.027 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:02.032 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@55352974
+16:57:02.128 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@38a1f14b
+16:57:02.129 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:02.129 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:02.129 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:02.129 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:02.129 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:02.134 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@732552ae
+16:57:02.366 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6faf6778
+16:57:02.366 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:02.366 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:02.366 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:02.366 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:02.366 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:02.372 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@709ff4cc
+16:57:02.486 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@624739d1
+16:57:02.486 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:02.486 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:02.486 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:02.486 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:02.487 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:02.491 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@36471cf6
+16:57:03.052 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6753c990
+16:57:03.053 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:03.053 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:03.053 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:03.053 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:03.053 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:03.058 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@67f2958a
+16:57:03.169 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6836c432
+16:57:03.169 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:03.169 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:03.170 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:03.170 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:03.170 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:03.175 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5b71893b
+16:57:03.267 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5b8c133
+16:57:03.267 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:03.267 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:03.268 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:03.268 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:03.268 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:03.272 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1713ffb9
+16:57:03.378 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@30e86a42
+16:57:03.378 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:03.378 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:03.378 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:03.379 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:03.379 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:03.384 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@78494c81
+16:57:03.547 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@48adcff5
+16:57:03.547 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:03.548 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:03.548 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:03.548 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:03.548 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:03.555 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@343be53
+16:57:04.050 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@27004c41
+16:57:04.050 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:04.050 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:04.050 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:04.050 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:04.050 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:04.057 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@436512ca
+16:57:04.154 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@66223ca3
+16:57:04.154 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:04.154 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:04.155 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:04.155 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:04.155 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:04.159 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@73404077
+16:57:04.253 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@17f073bb
+16:57:04.253 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:04.253 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:04.253 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:04.253 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:04.253 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:04.257 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@63fa09b4
+16:57:04.977 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5d870809
+16:57:04.977 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:04.977 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:04.977 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:04.977 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:04.977 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:04.982 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ab801e2
+16:57:05.095 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@cb87d7
+16:57:05.095 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:05.096 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:05.096 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:05.096 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:05.096 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:05.101 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@686c56a
+16:57:05.605 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4bc47a85
+16:57:05.605 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:05.606 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:05.606 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:05.606 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:05.606 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:05.611 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5fa68f28
+16:57:05.764 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@de61669
+16:57:05.764 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:05.764 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:05.765 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:05.765 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:05.765 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:05.769 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1de12d07
+16:57:05.897 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2089358c
+16:57:05.898 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:05.898 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:05.898 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:05.898 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:05.898 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:05.903 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3a85cf32
+16:57:06.054 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@28c1cbd8
+16:57:06.054 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:06.054 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:06.054 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:06.054 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:06.054 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:06.056 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@139ada53
+16:57:06.187 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5dd1f607
+16:57:06.187 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:06.187 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:06.187 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:06.187 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:06.187 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:06.191 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@56eb16a4
+16:57:06.307 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5821dc48
+16:57:06.307 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:06.307 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:06.308 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:06.308 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:06.308 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:06.310 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@c83eb0a
+16:57:06.770 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@24a93360
+16:57:06.770 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:06.771 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:06.771 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:06.771 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:06.771 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:06.777 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@47716f13
+16:57:06.937 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@444a05a4
+16:57:06.937 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:06.937 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:06.937 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:06.938 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:06.938 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:06.943 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7b695a7a
+16:57:07.427 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@80847e8
+16:57:07.427 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:07.428 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:07.428 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:07.428 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:07.428 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:07.433 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@40df5e50
+16:57:07.532 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2314c764
+16:57:07.532 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:07.532 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:07.532 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:07.532 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:07.532 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:07.538 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@648e28eb
+16:57:07.642 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@61a4fcf9
+16:57:07.642 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:07.642 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:07.642 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:07.642 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:07.642 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:07.644 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@217372a9
+16:57:07.724 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1c0ee259
+16:57:07.724 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:07.724 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:07.724 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:07.725 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:07.725 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:07.727 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@60261a0
+16:57:07.864 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@10e675b9
+16:57:07.865 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:07.865 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:07.865 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:07.865 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:07.865 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:07.869 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@34445bc7
+16:57:08.108 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@747d0df2
+16:57:08.108 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:08.108 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:08.108 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:08.109 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:08.109 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:08.113 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5e08f289
+16:57:08.562 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7f8d9276
+16:57:08.562 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:08.562 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:08.563 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:08.563 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:08.563 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:08.566 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@53cf617d
+16:57:08.886 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3eaa8b06
+16:57:08.886 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:08.887 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:08.887 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:08.887 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:08.887 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:08.891 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1d9dd414
+16:57:09.575 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@469b104e
+16:57:09.575 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:09.575 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:09.575 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:09.575 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:09.575 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:09.580 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@f038b35
+16:57:09.691 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@116ea62a
+16:57:09.691 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:09.692 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:09.692 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:09.692 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:09.692 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:09.697 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@75128060
+16:57:10.010 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@777b45cc
+16:57:10.010 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.010 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.010 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.010 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.011 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.016 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@245f9f98
+16:57:10.133 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3fc0c4f2
+16:57:10.133 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.133 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.133 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.134 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.134 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.139 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@59f4f6e
+16:57:10.266 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5898abbe
+16:57:10.266 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.267 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.267 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.267 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.267 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.272 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@474ee4ea
+16:57:10.375 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2b0482ee
+16:57:10.375 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.375 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.376 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.376 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.376 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.381 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4b5c64e8
+16:57:10.613 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@451ec4bf
+16:57:10.614 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.614 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.614 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.614 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.614 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.619 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1b845ed
+16:57:10.730 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4acedae1
+16:57:10.730 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.730 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.731 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.731 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.731 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.736 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6061af01
+16:57:10.857 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7df73375
+16:57:10.857 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.857 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.857 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.857 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.858 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.863 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2d555da7
+16:57:10.966 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@21a78211
+16:57:10.966 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:10.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:10.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:10.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:10.967 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:10.973 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@10bbc8ed
+16:57:11.238 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@69b2a41d
+16:57:11.239 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:11.239 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:11.239 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:11.239 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:11.239 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:11.246 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62b97b5e
+16:57:11.504 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7d333abe
+16:57:11.505 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:11.505 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:11.505 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:11.505 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:11.505 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:11.510 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@18ba060c
+16:57:11.649 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7c38296f
+16:57:11.650 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:11.650 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:11.650 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:11.650 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:11.650 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:11.657 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@42cabec6
+16:57:11.961 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1926657b
+16:57:11.961 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:11.962 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:11.962 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:11.962 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:11.962 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:11.967 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6667db11
+16:57:12.131 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2e08d830
+16:57:12.131 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:12.132 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:12.132 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:12.132 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:12.132 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:12.275 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@33e35d83
+16:57:12.566 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@71ed8a89
+16:57:12.566 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:12.566 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:12.566 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:12.566 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:12.566 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:12.571 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6771eaff
+16:57:12.891 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3907bece
+16:57:12.891 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:12.891 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:12.892 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:12.892 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:12.892 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:12.897 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3820238e
+16:57:13.144 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@8196d45
+16:57:13.145 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:13.145 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:13.145 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:13.145 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:13.145 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:13.149 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1cc3ac16
+16:57:13.480 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@9479905
+16:57:13.480 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:13.480 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:13.481 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:13.481 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:13.481 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:13.494 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@246a993e
+16:57:13.626 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@48c115b6
+16:57:13.627 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:13.627 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:13.627 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:13.627 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:13.627 [placeOrder@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:13.642 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=-2114543366
+16:57:13.642 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=-2114543366
+16:57:13.642 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+16:57:13.643 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=-2114543366
+16:57:13.643 [placeOrder@0] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@1db6f8d9
+16:57:13.643 [placeOrder@0] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 49205c8f27f4cb7dd8454b2773ade36fa0478258
+16:57:14.310 [placeOrder@0] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 49205c8f27f4cb7dd8454b2773ade36fa0478258
+16:57:15.022 [placeOrder@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@1db6f8d9, response=success: true
+
+16:57:15.029 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=-2114543366
+16:57:15.029 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+16:57:15.029 [placeOrder@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, TestClass :: com/browserstack/test/suites/e2e/OrderTest
+16:57:15.033 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=TestBase.tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}]
+16:57:15.033 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:57:15.033614, hook_id=0a947ed8-d557-48f4-a183-a092ba7b53bb, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}  and args = [[TestResult name=tearDown status=STARTED method=TestBase.tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}], TestBase.tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c]]
+16:57:15.033 [placeOrder@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:57:15.033614, hook_id=0a947ed8-d557-48f4-a183-a092ba7b53bb, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}]} , hooks finished={AFTER_METHOD=[]}
+16:57:15.033 [placeOrder@0] INFO  c.b.v2.module.TestHubModule - Capturing CBT session for TestFrameworkState.AFTER_METHOD before driver.quit()
+16:57:15.033 [placeOrder@0] INFO  c.b.v2.module.TestHubModule - Using hook UUID=0a947ed8-d557-48f4-a183-a092ba7b53bb for CBTSessionCreated (state=TestFrameworkState.AFTER_METHOD)
+16:57:15.038 [placeOrder@0] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@161cd94e, response=success: true
+
+16:57:15.042 [placeOrder@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@161cd94e, response=success: true
+
+16:57:15.044 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@6cd5b550
+16:57:15.051 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6237b3a6
+16:57:15.052 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@48a87151
+16:57:16.715 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@39f59883
+16:57:16.716 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:16.716 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:16.716 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:16.716 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:16.717 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:16.721 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@37d38986
+16:57:16.721 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 0
+16:57:16.721 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/TestLevel
+16:57:16.721 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/BuildLevel
+16:57:16.722 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+16:57:16.722 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+16:57:16.725 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=-2114543366
+16:57:16.725 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+16:57:16.725 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: /Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Automate/browserstack-examples-testng-main, TestClass :: com/browserstack/test/suites/e2e/OrderTest
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=SUCCESS method=TestBase.tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}]
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:57:15.033614, hook_id=0a947ed8-d557-48f4-a183-a092ba7b53bb, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}] and args = [[TestResult name=tearDown status=SUCCESS method=TestBase.tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c] output={null}], TestBase.tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4c7e978c]]
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel/BuildLevelHookEvent and abs path = /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel/BuildLevelHookEvent 
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/yashchavan/.browserstack/UploadedAttachments-0/HookLevel/BuildLevelHookEvent
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+16:57:16.732 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={AFTER_METHOD=[]} , hooks finished={AFTER_METHOD=[{hook_name=tearDown, hook_result=passed, test_file_path=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java, event_started_at=2026-04-17T16:57:15.033614, hook_id=0a947ed8-d557-48f4-a183-a092ba7b53bb, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2026-04-17T16:57:16.732447, test_location=browserstack-examples-testng-main/src/test/java/com/browserstack/test/suites/e2e/OrderTest.java}]}
+16:57:16.736 [tearDown@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@4207dfd7, response=success: true
+
+16:57:18.347 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Starting single instance quit process
+16:57:18.347 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] SdkCLI is running, getting tracked instance
+16:57:18.347 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Found tracked instance, getting driver
+16:57:18.347 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Driver found (RemoteWebDriver), checking Playwright status
+16:57:18.347 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Not Playwright, calling SeleniumMethodUtils.quitWebDriver
+16:57:18.348 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Successfully quit driver
+16:57:18.348 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - quitWebDriverForCLIFlow: [Instance: 23841:52] Single instance quit process completed
+16:57:18.390 [Thread-0] INFO  com.browserstack.testOps.Listener - onComplete: CLI is active
+16:57:18.392 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli stop triggered
+16:57:20.544 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: shutting down CLI
+16:57:20.550 [Thread-0] INFO  com.browserstack.v2.SdkCLI - Attempting to delete directory: /Users/yashchavan/.browserstack/UploadedAttachments-0
+16:57:20.551 [Thread-0] INFO  com.browserstack.v2.SdkCLI - Deleted directory: /Users/yashchavan/.browserstack/UploadedAttachments-0
+16:57:22.469 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - src/test/resources/conf/capabilities/bstack-single.yml
+16:57:24.432 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+16:57:24.433 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - Visit https://automation.browserstack.com/builds/ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9 to view build report, insights, and many more debugging information all at one place!
+16:57:24.433 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:57:24.435 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/eadce22bbd8fb0da1aeb1c5210e5d1daf4e8a7a7
+16:57:24.435 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:57:24.435 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - quitAllWebDriversForCLIFlow: Starting cleanup process
+16:57:24.435 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - quitAllWebDriversForCLIFlow: No automation framework instances found to quit for CLI flow
+16:57:24.439 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 2e881a48-1d76-42c2-914b-8b65c5db9d28, testhub id: ebp0ndgippm6d1mq1pzfhhtbgf7jqhvocs5wj1n9
+16:57:24.439 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
