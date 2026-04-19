@@ -1,0 +1,16 @@
+{
+  "name": "percy",
+  "version": "1.0.0",
+  "description": "Visual testing tool that is used to mark and find the visual bugs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@percy/cli": "^1.31.11"
+  }
+}
