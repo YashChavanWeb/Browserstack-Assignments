@@ -1,0 +1,64 @@
+export PERCY_TOKEN=auto_67bef766dfb6954292df30a328a5491063a7e0b98f57303a409c3b0c028cef82
+export BROWSERSTACK_USERNAME=yashchavan_BXWaDR
+export BROWSERSTACK_ACCESS_KEY=5zaMsAbo3Abj4VvQdmfs
+
+
+# Live:
+node server.js
+
+
+
+
+
+# Automate:
+Website: https://bstackdemo.com
+
+Entire:
+export BROWSERSTACK_CONFIG_FILE="src/test/resources/conf/capabilities/bstack-parallel-browsers.yml"
+mvn clean test -P bstack-parallel-browsers
+
+
+
+
+
+# App Automate:
+mvn test -P sample-test
+
+
+
+
+
+# Percy:
+
+- Cli App:
+npx percy snapshot snapshots.yml
+
+- Automate example:
+Website: https://www.bstackdemo.com
+
+npx percy exec --verbose  --  mvn test -P sample-percy-test
+
+
+
+
+
+# App Percy:
+
+- app-percy-demo-main
+npm run upload-app 
+npm run percy:test
+
+
+
+
+
+# Test Management
+mvn test -P sample-test
+
+Upload report:
+curl -k -X POST "https://test-management.browserstack.com/api/v1/import/results/xml/junit" \
+-H "API-TOKEN:yashchavan_BXWaDR:5zaMsAbo3Abj4VvQdmfs" \
+-F "project_name=Test Project" \
+-F "file_path=@/Users/yashchavan/Desktop/Coding/Browserstack-Assignments/Test-Management/testng-curl/target/surefire-reports/junitreports/TEST-com.browserstack.BStackDemoTest.xml" \
+-F "test_run_name=My curl run" \
+-F "user_email=yash.chavan+demo@browserstack.com"
